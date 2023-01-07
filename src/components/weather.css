@@ -1,0 +1,13 @@
+.Bg_container{
+    background-image: url("../../public/sunset.png");
+    height: 700px;
+    width: 500px;
+}
+
+.degBg{
+    background-color: #1919195c !important;
+}
+
+.bg_contrasted{
+    /* background-color: #c4c4c45c !important; */
+}

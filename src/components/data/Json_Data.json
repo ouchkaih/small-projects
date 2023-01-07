@@ -1,0 +1,34 @@
+[
+   {
+     "question": "what is the capital of Morocco ? ",
+     "answer1": "Rabat",
+     "answer2": "casa",
+     "answer3": "Fes",
+     "answer4": "Tangier",
+     "corect": "Rabat"
+   },
+   {
+     "question": " what is the capital of USA?",
+     "answer1": "wachenton",
+     "answer2": "landon",
+     "answer3": "Rabat",
+     "answer4": "casa",
+     "corect": "wachenton"
+   },
+   {
+     "question": "what is the capital of Qatar ?",
+     "answer1": "daoha",
+     "answer2": "qatar",
+     "corect": "daoha",
+     "answer3": "Rabat",
+     "answer4": "casa"
+   },
+   {
+     "question": "what is the capital of italy ?",
+     "answer1": "united state",
+     "answer2": "rome",
+     "corect": "rome",
+     "answer3": "Rabat",
+     "answer4": "casa"
+   }
+ ]

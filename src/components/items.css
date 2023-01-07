@@ -1,0 +1,13 @@
+.Add_Line_through {
+    text-decoration: line-through;
+}
+
+.question_number{
+    font-size: 15px;
+}
+
+.bg-dark{
+    box-shadow: -1px 4px 51px -8px rgba(0, 0, 0, 0.91);
+        -webkit-box-shadow: -1px 4px 51px -8px rgba(0, 0, 0, 0.91);
+        -moz-box-shadow: -1px 4px 51px -8px rgba(0, 0, 0, 0.91);
+}
