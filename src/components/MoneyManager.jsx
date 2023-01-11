@@ -37,7 +37,7 @@ function MoneyManager() {
           <hr />
           <div className="row">
             <div className="col-6">book</div>
-            <div className="col-6 ext-end">-555</div>
+            <div className="col-6 text-end">-555</div>
           </div>
         </div>
       </div>
