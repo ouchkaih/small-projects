@@ -8,24 +8,20 @@ export const MoneyManagerReducer = createSlice({
     reducers:{
         ChangeBalance:(state,action)=>{
             // if the amount greatess than 0 means its income transaction 
-            if(action.payload >0){
-                state.balance +=action.payload
+            if(action.payload.amount > 0){
+                state.balance +=parseFloat(action.payload.amount)
+                state.income += parseFloat(action.payload.amount);
+                console.log("first")
             }else{
-                state.balance -= action.payload;
+                state.balance += parseFloat(action.payload.amount);
+                state.expense -= parseFloat(action.payload.amount);
             }
+            state.history.push(action.payload);
         },
-        ChangeIncome :(state,action)=>{
-            state.income += action.payload
-        },
-        ChangeExpense : (state,action)=>{
-            state.expense -=action.payload
-        }
-        ,AddHistoryItem : (state, action)=>{
-            state.history.push(action.payload)
-        }
+        
 
     }
 })
 
-export const {ChangeBalance, ChangeExpense, ChangeIncome, AddHistoryItem} = MoneyManagerReducer.actions
+export const {ChangeBalance} = MoneyManagerReducer.actions
 export default MoneyManagerReducer.reducer 
