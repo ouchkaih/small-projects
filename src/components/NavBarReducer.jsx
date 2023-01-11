@@ -16,5 +16,5 @@ export const NavBarReducer = createSlice(
    
 );
 
-export const {changeLanguage} = NavBarReducer.action
+export const {changeLanguage} = NavBarReducer.actions
 export default NavBarReducer.reducer
