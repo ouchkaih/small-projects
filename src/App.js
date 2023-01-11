@@ -1,11 +1,12 @@
-import { React } from 'react'
-import Nav from './components/nav'
-import { Route, Router, Routes } from 'react-router-dom'
-import Controler from './components/Controler'
-import Weather from './components/Weather'
-import Items from './components/items'
-import Questions from './components/questions'
-import Notes from './components/Notes'
+import { React } from "react";
+import Nav from "./components/nav";
+import { Route, Router, Routes } from "react-router-dom";
+import Controler from "./components/Controler";
+import Weather from "./components/Weather";
+import Items from "./components/items";
+import Questions from "./components/questions";
+import Notes from "./components/Notes";
+import MoneyManager from "./components/MoneyManager";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Route path="/items" element={<Items />} />
         <Route path="/questions" element={<Questions />} />
         <Route path="/notes" element={<Notes />} />
+        <Route path="/moneymanager" element={<MoneyManager />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

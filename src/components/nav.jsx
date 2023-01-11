@@ -24,12 +24,17 @@ function Nav() {
           </li>
           <li className="nav-item">
             <Link to="questions" className="nav-link">
-              Questions 
+              Questions
             </Link>
           </li>
           <li className="nav-item">
             <Link to="notes" className="nav-link">
-               Notes
+              Notes
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="moneymanager" className="nav-link">
+              Money Manager
             </Link>
           </li>
         </ul>
